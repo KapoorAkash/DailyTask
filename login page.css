@@ -1,0 +1,165 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+main {
+    font-size: 10px;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-image: linear-gradient(to Right, rgba(39,42,55,0.9868989832261029) 50%, rgba(90,94,109,1)),
+                      url('https://cdn.pixabay.com/photo/2017/11/22/22/52/milky-way-2971669_1280.jpg');
+   
+     
+}
+
+.text-gray {
+    color: #646b7a;
+}
+
+.bg-blue {
+    background-color: #2088e7;
+}
+.bg-gray{
+    background-color: #646b7a;
+}
+.b-blue{
+    border: 1px solid #2088e7;
+}
+
+.text-blue {
+    color: #2071bc;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.font-1 {
+    font-size: 1.6rem;
+}
+.font-2{
+    font-size: 5.6rem;
+}
+.font-w{
+    font-weight: 600;
+}
+
+.inline {
+    display: inline;
+}
+
+.in-block {
+    display: inline-block;
+}
+.in-grid{
+    display: inline-grid;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+.v-top{
+    vertical-align: text-top;
+}
+.w-1{
+    width: 44%;
+}
+.w-2{
+    width: 22%;
+}
+.relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+    top: 32%;
+    right: 3%;
+}
+.b-none{
+    border: none;
+}
+.m-1{
+    margin: 8rem;
+}
+.m-2{
+    margin-top: 3rem;
+}
+.m-3{
+    margin-top: 2rem;
+}
+
+
+
+/* Header */
+.page-header {
+    padding: 2rem 6rem;
+}
+
+.logo {
+    background-color: #2088e7;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.logo-text {
+    padding-left: 1rem;
+    
+    font-weight: 100;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #646b7a;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 11rem;
+}
+
+
+/* Main */
+.member-login li{
+    list-style-type: none;
+    display: inline;
+}
+.member-login a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.form-border{
+    background-color: #323644;
+    border-radius: 1rem;
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.form-border input{
+    outline: none;
+    border: none;
+    background-color: #323644;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+.svg-bg{
+    background-color: #a9acb1;
+    border-radius: 0.5rem;
+}
+button{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 2rem;
+    border-radius: 8rem;
+    font-size: 2rem;
+}
