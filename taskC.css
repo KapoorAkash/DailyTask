@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   width: 100%;
+    font-size: 10px;
+}
+div{
+    position: relative;
+    padding-top: 8rem; 
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+img{
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.img-2 {
+    left: 15%;
+}
+
+.img-3 {
+    left: 30%;
+}
+
+.img-4 {
+    left: 45%;
+}

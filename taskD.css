@@ -1,0 +1,175 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main{
+    width: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.font-xs {
+    font-size: 1.8rem;
+}
+.font-lg{
+    font-size: 2rem;
+}
+.font-2lg{
+    font-size: 3rem;
+}
+
+.font-xl {
+    
+    font-size: 4.5rem;
+    font-weight: 600;
+    line-height: 55px;
+
+}
+.border-round{
+    border-radius: 7px;
+}
+.border-round5{
+    border-radius: 50%;
+    
+}
+
+.p-1 {
+    padding: 1rem 5rem;
+} 
+.p-2{
+    padding: 2rem;
+}
+.mT-1{
+    margin-top: 1.5rem;
+}
+.mB-1{
+    margin-bottom: 1.5rem;
+}
+.m-2{
+    margin: 2rem 1.5rem 0rem 1.5rem;
+}
+.m-3{
+    margin: 10rem 0rem 4rem;
+}
+.mT-2{
+    margin: 2rem auto 0;
+}
+.mT-6{
+    margin-top: 6rem;
+}
+.margin-auto{
+    margin: 0 auto;
+   max-width: 1240px;
+}
+.h-1{
+    height: calc(100vh - 70px);
+}
+.h-2{
+    height: 100vh;
+}
+.h-3{
+    height: 90vh;
+}
+.w-1{
+    width: 50%;
+}
+.w-2{
+    width: 30%;
+}
+.w-3{
+    width: 70%;
+}
+
+.para{
+
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.bg-black {
+    background-color: rgb(45, 44, 44);
+}
+.bg-gray{
+    background-color: rgb(231, 222, 222);
+}
+
+.text-white {
+    color: white;
+
+}
+.bg-image{
+    background-image: url("https://cdn.pixabay.com/photo/2022/07/13/08/06/trees-7318791_1280.jpg");
+    background-size: cover;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 1rem 2rem;
+    line-height: 3rem;
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+}
+
+.in-block {
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.item-center{
+    text-align: center;
+}
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+.center{
+    margin: 0rem auto;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix::after,
+.clearfix::before {
+    clear: both;
+    display: table;
+    content: "";
+}
+/* .header{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+} */
+.fixed-sec{
+    position: sticky;
+    top: 75px;
+}
+
